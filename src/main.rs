@@ -13,7 +13,7 @@ fn main() {
 
             let mut id = packet[0];
 
-            if id == message_identifier::ID_UNCONNECTED_PING {
+            if id == message_identifier::ID_CONNECTED_PONG {
                 println!("i am here");
             }
         }
