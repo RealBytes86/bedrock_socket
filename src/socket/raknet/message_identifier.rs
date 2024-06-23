@@ -1,6 +1,3 @@
-
-
-
 pub const ID_CONNECTED_PING: u8 = 0x00;
 pub const ID_UNCONNECTED_PING: u8 = 0x01;
 pub const ID_UNCONNECTED_PING_OPEN_CONNECTIONS: u8 = 0x02;

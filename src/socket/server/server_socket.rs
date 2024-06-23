@@ -6,6 +6,7 @@ pub struct ServerSocket {
 }
 
 impl ServerSocket {
+
     pub fn new(ip: String, port: u16) -> Self {
         let address  = format!("{}:{}", ip, port);
         let socket = UdpSocket::bind(&address).expect("Could not bind address.");
