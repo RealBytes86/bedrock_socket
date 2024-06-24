@@ -1,5 +1,4 @@
 use std::net::{ UdpSocket, SocketAddr };
-use std::thread::sleep;
 
 pub struct ServerSocket {
     socket: UdpSocket
