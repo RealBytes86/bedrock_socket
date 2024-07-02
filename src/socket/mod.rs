@@ -1,3 +1,3 @@
-pub mod server;
 pub mod raknet;
-mod binary;
+pub mod binary;
+pub mod server;
